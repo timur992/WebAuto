@@ -22,7 +22,7 @@ public class NegativeLoginTest {
 	public void setUp() throws InterruptedException {
 		// System variables need to know what type of the driver we are using and the
 		// path to the driver
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().setup();//webdriver manager
 
 		// instantiate and initialized a webdriver variable which is Chrome
 		driver = new ChromeDriver();
