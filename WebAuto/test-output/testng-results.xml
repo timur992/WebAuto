@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting execution of loginWithCorrectCredentialsTest]]>
+    </line>
+    <line>
+      <![CDATA[set up process has finished]]>
+    </line>
+    <line>
+      <![CDATA[Printing Page Title]]>
+    </line>
+    <line>
+      <![CDATA[comparing actualPage vs expectedPage]]>
+    </line>
+    <line>
+      <![CDATA[supplying tomsmith as a username]]>
+    </line>
+    <line>
+      <![CDATA[supplying SuperSecretPassword! as a password]]>
+    </line>
+    <line>
+      <![CDATA[clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[comparing expectedMessage vs actualMessageDisplayed]]>
+    </line>
+    <line>
+      <![CDATA[closing the browser session]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="30464" started-at="2023-10-14T06:50:56 EDT" finished-at="2023-10-14T06:51:27 EDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="30464" started-at="2023-10-14T06:50:56 EDT" finished-at="2023-10-14T06:51:27 EDT">
+      <class name="Automation.WebAuto.NegativeLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Automation.WebAuto.NegativeLoginTest@4de8b406]" name="setUp" is-config="true" duration-ms="3622" started-at="2023-10-14T06:51:12 EDT" finished-at="2023-10-14T06:51:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithIncorrectPasswordTest()[pri:0, instance:Automation.WebAuto.NegativeLoginTest@4de8b406]" name="loginWithIncorrectPasswordTest" duration-ms="8506" started-at="2023-10-14T06:51:16 EDT" finished-at="2023-10-14T06:51:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithIncorrectPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.WebAuto.NegativeLoginTest@4de8b406]" name="tearDown" is-config="true" duration-ms="2639" started-at="2023-10-14T06:51:24 EDT" finished-at="2023-10-14T06:51:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation.WebAuto.NegativeLoginTest -->
+      <class name="Automation.WebAuto.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Automation.WebAuto.LoginTest@6df97b55]" name="setUp" is-config="true" duration-ms="4493" started-at="2023-10-14T06:50:56 EDT" finished-at="2023-10-14T06:51:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithCorrectCredentialsTest()[pri:0, instance:Automation.WebAuto.LoginTest@6df97b55]" name="loginWithCorrectCredentialsTest" duration-ms="8508" started-at="2023-10-14T06:51:01 EDT" finished-at="2023-10-14T06:51:09 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting execution of loginWithCorrectCredentialsTest]]>
+            </line>
+            <line>
+              <![CDATA[set up process has finished]]>
+            </line>
+            <line>
+              <![CDATA[Printing Page Title]]>
+            </line>
+            <line>
+              <![CDATA[comparing actualPage vs expectedPage]]>
+            </line>
+            <line>
+              <![CDATA[supplying tomsmith as a username]]>
+            </line>
+            <line>
+              <![CDATA[supplying SuperSecretPassword! as a password]]>
+            </line>
+            <line>
+              <![CDATA[clicking login button]]>
+            </line>
+            <line>
+              <![CDATA[comparing expectedMessage vs actualMessageDisplayed]]>
+            </line>
+            <line>
+              <![CDATA[closing the browser session]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCredentialsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Automation.WebAuto.LoginTest@6df97b55]" name="tearDown" is-config="true" duration-ms="2653" started-at="2023-10-14T06:51:09 EDT" finished-at="2023-10-14T06:51:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Automation.WebAuto.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
